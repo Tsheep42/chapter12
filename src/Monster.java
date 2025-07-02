@@ -1,4 +1,5 @@
 public abstract class Monster implements Life{
+    String name;
     int hp;
 
     public void run() {
