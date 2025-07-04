@@ -1,14 +1,11 @@
 public class Thief extends Character {
-    public Thief() {
-        damage = 5;
-    }
-    /*public void attack(Matango m) {
+    public void attack(Monster m) {
         System.out.println(this.name + "の攻撃！");
         System.out.println("敵に5ポイントのダメージ");
         m.hp -= 5;
     }
 
-    public void attack(Goblin g){
+    /*public void attack(Goblin g){
         System.out.println(this.name + "の攻撃！");
         System.out.println("敵に10ポイントのダメージ");
         g.hp -= 5;

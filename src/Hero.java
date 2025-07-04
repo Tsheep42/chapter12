@@ -1,14 +1,12 @@
 public class Hero extends Character{
-    public Hero() {
-        damage = 10;
-    }
-    /*public void attack(Matango m){
+
+    public void attack(Monster m){
         System.out.println(this.name + "の攻撃！");
         System.out.println("敵に10ポイントのダメージ");
         m.hp -= 10;
     }
 
-    public void attack(Goblin g) {
+    /*public void attack(Goblin g) {
         System.out.println(this.name + "の攻撃！");
         System.out.println("敵に10ポイントのダメージ");
         g.hp -= 10;

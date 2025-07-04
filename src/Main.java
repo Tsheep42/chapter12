@@ -12,13 +12,10 @@ public class Main {
 
         Monster[] monsters = new Monster[3];
         monsters[0] = new Slime();
-        monsters[0].name = "スライム";
 
         monsters[1] = new Goblin();
-        monsters[1].name = "ゴブリン";
 
         monsters[2] = new Matango();
-        monsters[2].name = "マタンゴ";
 
         for (Character member : c){
             for(Monster m : monsters){
